@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleinicio.css">
+    <title>GL Portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="head">
+        <a href="index.html" class="logo">GL</a>
+        <label class="switch">
+            <input type="checkbox" class="mySwitch">
+            <span class="slider1"></span>
+        </label>
+        <nav class="navbar">
+            <a href="#inicio">INICIO</a>
+            <a href="#yo">Sobre mi</a>
+            <a href="#proyectos">proyectos</a>
+            <a href="#contac">CONTACTO</a>
+        </nav>
+    </div>
+    <div class="head2">
+
+    </div>
+    <header class="-header" id="inicio">
+        <p></p>
+        <h2 class="title1">HAROL GIOVANNY LARA SUAREZ</h2>
+        <p class="p1">
+            Este portafolio es una muestra de mi trabajo y una forma de demostrar mi capacidad
+            para enfrentar desafíos de programación. Aunque no tengo experiencia profesional,
+            estoy seguro de que mi pasión, dedicación y habilidades técnicas me permitirán contribuir
+            de manera significativa en proyectos futuros. </br>
+            Durante mi formación y desarrollo como desarrollador de software, he invertido innumerables
+            horas en estudiar y practicar diferentes lenguajes de programación, frameworks y metodologías.
+            He trabajado en proyectos personales y colaborativos que me han permitido aplicar mis
+            conocimientos y habilidades en situaciones reales, enfrentando desafíos y encontrando
+            soluciones creativas.
+        </p>
+
+        <div>
+            <a download="HOJA-DE-VIDA.pdf" href="/documentos/hvg.pdf" class="button" target="_blank">
+                Desacargar CV
+            </a>
+        </div>
+
+    </header>
+
+    <div class="modal-container">
+        <div class="modal modal-close">
+            <p class="close"> X </p>
+            <h2 class="title-model" id="title-modal">titulo</h2>
+            <p id="texto-modal">lorem</p>
+        </div>
+    </div>
+
+    <section class="content sau">
+        <h2 class="title" id="yo">sobre mi </h2>
+        <p>¡Hola! Soy Harol Giovanny, un apasionado desarrollador de software con una sólida formación en ingeniería de
+            sistemas. Actualmente, estoy en el sexto semestre de mi carrera y he aprovechado al máximo mi tiempo como
+            estudiante para aprender aún más de forma autodidacta.
+            Durante mi trayectoria como desarrollador, tuve la oportunidad de participar en el diplomado de MISION TIC
+            2022, donde adquirí conocimientos especializados en desarrollo web. Fue una experiencia enriquecedora, ya
+            que pude aplicar estos conocimientos a través de proyectos prácticos, demostrando mis habilidades y
+            consolidando mis conocimientos.
+            Estoy emocionado por la oportunidad de aplicar toda esta experiencia en proyectos futuros. Creo firmemente
+            que mi combinación de formación académica, aprendizaje autodidacta y experiencia práctica me ha preparado de
+            manera excelente para enfrentar cualquier desafío en el campo del desarrollo de software.
+            ¡Seguiré esforzándome y aprovechando cada oportunidad para seguir creciendo como desarrollador de software!
+        </p>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <a href="#" class="mas">MAS INFORMACION</a>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <a href="#" class="mas">MAS INFORMACION</a>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-c"></i>
+                <h3>.Net</h3>
+                <a href="#" class="mas">MAS INFORMACION</a>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <a href="#" class="mas">MAS INFORMACION</a>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-github"></i>
+                <h3>Github</h3>
+                <a href="https://github.com/GiovannyAche?tab=repositories" class="mas" target="_blank">REPOSITORIO</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="content about" id="proyectos">
+        <h2 class="title">proyectos</h2>
+        <div class="slider">
+            <div class="slide">
+                <img src="documentos/hospital.jpg" alt="Imagen 1">
+                <h2>Hospital</h2>
+                <p class="texto-carrusel">Se desarrollo una página web utilizando Python para el backend y
+                    JavaScript para el fronted de un hospital, con el objetivo de permitir un inicio de sesión
+                    dinámico tanto para empleados como para pacientes, teniendo en cuenta el cargo y las
+                    funcionalidades específicas de cada uno. Esta página web debe permitir realizar operaciones CRUD
+                    (Crear, Leer, Actualizar y Eliminar) en los datos de pacientes, familiares y la historia
+                    clínica.
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/hospital-fe" class="btn">REPOSITORIO</a>
+            </div>
+            <div class="slide">
+                <img src="documentos/banco2.jpg" alt="Imagen 2">
+                <h2>Banco</h2>
+                <p class="texto-carrusel">Esta plataforma permite a los clientes de un banco
+                    realizar un inicio de sesión seguro y acceder a diversas funcionalidades.
+                    Utilizando el patrón de diseño Modelo-Vista-Controlador (MVC), he logrado
+                    una estructura organizada y modular que facilita el mantenimiento y la
+                    escalabilidad del sistema. fue desarrollada en python con ayuda de el
+                    framework django y su fronted fue desarrollado en javscript con vue
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/Bank-be" class="btn">REPOSITORIO</a>
+            </div>
+            <div class="slide">
+                <img src="documentos/registraduria.jpg" alt="Imagen 3">
+                <h2>Registradurida backend</h2>
+                <p>En esta etapa del proyecto, nos enfocamos en el desarrollo del
+                    backend utilizando Python y el framework Flask. Nuestro objetivo
+                    principal fue establecer conexiones con una base de datos MongoDB
+                    para crear usuarios en un sistema de votaciones, pero con un enfoque
+                    específico en los administradores
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-be1" class="btn">REPOSITORIO</a>
+            </div>
+            <div class="slide">
+                <img src="documentos/permisos.jpg" alt="Imagen 4">
+                <h2>Registradurida backend</h2>
+                <p>esta es otra parte del backend del proyecto anterior fue desarrollado
+                    con java y el framework maven en este se realizaban cada uno de los
+                    permisos que tenian los usuarios dependiendo de su rol estos permisos
+                    son un CRUD de diferentes modelos que se tenian en el anterior back end
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-be2" class="btn">REPOSITORIO</a>
+
+            </div>
+            <div class="slide">
+                <img src="documentos/permisos.jpg" alt="Imagen 5">
+                <h2>Registradurida API</h2>
+                <p>Este proyecto es la tercera parte de la Registraduría en este se realizo
+                    una api en donde recibía las peticiones de uno de los backend y se realizaba
+                    la consulta del permiso al otro backend y de esta manera se confirmaba si
+                    un usuario tenia permiso a la acción que se iba a desarrollar, esto fue realizado
+                    con Python y flask
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-API" class="btn">REPOSITORIO</a>
+
+            </div>
+            <div class="slide">
+                <img src="documentos/refistraduria-fe.jpg" alt="Imagen 6">
+                <h2>Registradurida frontend</h2>
+                <p >Este proyecto es la ultima parte de la Registraduría en donde se
+                    enfoca en el frontend, el cual esta hecho con una plantilla de angular
+                    y en lenguaje typescript, también está conectada directamente al api
+                    ya que desde hay se despliega al lugar correspondiente para permitir
+                    toda la funcionalidad 
+                </p>
+                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-fe" class="btn">REPOSITORIO</a>
+            </div>
+        </div>
+        <div class="prev">
+            <i class="fa-solid fa-arrow-left fa-beat fa-2xl"></i>
+        </div>
+        <div class="next">
+            <i class="fa-solid fa-arrow-right fa-beat fa-2xl"></i>
+        </div>
+    </section>
+
+    <section class="content contac" id="contac">
+        <h2 class="title">contacto</h2>
+        <div id="icon">
+            <a id="icons" target="_blank"
+                href="https://www.linkedin.com/in/giovanny-lara-698a5221b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BtuFyOu3RQOSByUYw7jh5Pw%3D%3D"
+                class="fa-brands fa-linkedin fa-2xl"></a>
+            <a id="icons" target="_blank" href="https://wa.me/573222136644" class="fa-brands fa-whatsapp fa-2xl"></a>
+            <a id="icons" target="_blank" href="https://www.instagram.com/ache0108/"
+                class="fa-brands fa-instagram fa-2xl"></a>
+        </div>
+        <p>Giovannyache@gmail.com </br>
+            3222136644
+        </p>
+
+    </section>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>
