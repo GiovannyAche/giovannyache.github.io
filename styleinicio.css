@@ -469,7 +469,10 @@ input:checked+.slider1:before {
     }
     .modal{
         width: 80%;
-        height: 60%;
+        height: 80%;
     }
-
+    .prev,
+    .next {
+        top: 18%;
+    }
 }
