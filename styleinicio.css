@@ -198,30 +198,6 @@ p {
     background: var(--bg-color1);
 }
 
-@media (max-width: 768px) {
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
-    }
-
-    .sau {
-        height: 120hv;
-    }
-
-    .-header {
-
-        height: 20hv;
-    }
-
-    .navbar {
-        display: none;
-    }
-
-    p {
-        padding: 10px 10px;
-    }
-}
-
 body::-webkit-scrollbar {
     width: 10px;
     background: #3f3f3f;
@@ -352,7 +328,7 @@ a {
 .prev,
 .next {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
     padding: 10px;
     border: none;
@@ -454,10 +430,45 @@ input:checked+.slider1:before {
     transform: translateX(26px);
 }
 
-#icon{
+#icon {
     margin: 20px;
 }
 
-#icons{
+#icons {
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    .title1 {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .title {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .sau {
+        height: 130hv;
+    }
+
+    .-header {
+
+        height: 20hv;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    p {
+        padding: 10px 10px;
+    }
+    .modal{
+        width: 80%;
+        height: 60%;
+    }
+
 }
