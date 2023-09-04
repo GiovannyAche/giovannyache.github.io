@@ -66,11 +66,11 @@ body {
 }
 
 .-header {
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    padding:5% ;
     margin: 0;
     --x: calc(var(--posX, 0) * 1px);
     --y: calc(var(--posY, 0) * 1px);
@@ -119,7 +119,7 @@ p {
 
 .content {
     position: relative;
-    height: 50hv;
+    height: 100hv;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,6 +214,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .button {
+    
     background: black;
     cursor: pointer;
     border: #fff 3px solid;
@@ -221,7 +222,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: azure;
     font-size: 24px;
     font-weight: bold;
-    position: relative;
     border-radius: 12px;
     text-decoration: none;
 }
@@ -456,7 +456,8 @@ input:checked+.slider1:before {
 
     .-header {
 
-        height: 20hv;
+        height:200%;
+        padding:  10% 0;
     }
 
     .navbar {
