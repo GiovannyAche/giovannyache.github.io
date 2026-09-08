@@ -1,198 +1,191 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleinicio.css">
-    <title>GL Portafolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harol Giovanny Lara Suárez — Desarrollador de Software</title>
+<meta name="description" content="Portafolio de Harol Giovanny Lara Suárez, desarrollador de software. Proyectos en Java, Python, JavaScript y .NET.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="head">
-        <a href="index.html" class="logo">GL</a>
-        <label class="switch">
-            <input type="checkbox" class="mySwitch">
-            <span class="slider1"></span>
-        </label>
-        <nav class="navbar">
-            <a href="#inicio">INICIO</a>
-            <a href="#yo">Sobre mi</a>
-            <a href="#proyectos">proyectos</a>
-            <a href="#contac">CONTACTO</a>
-        </nav>
+<header>
+  <nav class="wrap">
+    <a href="#inicio" class="logo"><span class="dot"></span>GL</a>
+    <button class="navtoggle" id="navtoggle" aria-label="Abrir menú">☰</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
     </div>
-    <div class="head2">
+  </nav>
+</header>
 
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <span class="kicker">// desarrollador de software</span>
+      <h1>Harol Giovanny<br>Lara Suárez</h1>
+      <p class="lead">Construyo backends claros y aplicaciones web completas con Java, Python, JavaScript y .NET — desde el modelo de datos hasta la interfaz que usa la gente.</p>
+      <div class="btnrow">
+        <a class="btn btn-primary" href="documentos/hgv.pdf">Descargar CV</a>
+        <a class="btn btn-ghost" href="#proyectos">Ver proyectos</a>
+      </div>
     </div>
-    <header class="-header" id="inicio">
-        <p></p>
-        <h2 class="title1">HAROL GIOVANNY LARA SUAREZ</h2>
-        <p class="p1">
-            Este portafolio refleja mi compromiso con el desarrollo de software y mi pasión por crear soluciones tecnológicas de valor. A través de proyectos académicos, personales y colaborativos he fortalecido mis competencias técnicas, aplicando de manera práctica diversos lenguajes, frameworks y metodologías de desarrollo, lo que me ha permitido asumir retos con un enfoque analítico, creativo y adaptable. Mi propósito es seguir perfeccionando mis habilidades, mantenerme en constante aprendizaje y aportar con profesionalismo, responsabilidad y compromiso en cada proyecto en el que participe.
-        </p>
-        <p>
-            
-        </p>
+    <div class="codepanel">
+      <div class="codepanel-bar"><span></span><span></span><span></span></div>
+      <pre><span class="c2">const</span> <span class="c4">developer</span> = {
+  <span class="c1">name</span>: <span class="c3">"Harol Giovanny Lara"</span>,
+  <span class="c1">role</span>: <span class="c3">"Desarrollador de Software"</span>,
+  <span class="c1">stack</span>: [<span class="c3">"Java"</span>, <span class="c3">"Python"</span>,
+           <span class="c3">"JavaScript"</span>, <span class="c3">".NET"</span>],
+  <span class="c1">focus</span>: <span class="c3">"backend & full stack"</span>,
+  <span class="c1">learning</span>: <span class="c3">"siempre"</span>,
+};</pre>
+    </div>
+  </div>
+</section>
 
+<section id="sobre-mi">
+  <div class="wrap">
+    <div>
+      <h2 class="section-heading">Sobre mí</h2>
+      <p>Estoy terminando Ingeniería de Sistemas y complementando mi formación con un Técnico en Programación de Software en el SENA. Mi camino en el desarrollo empezó en el diplomado Misión TIC 2022, donde construí mis primeras aplicaciones web completas, y desde entonces no he dejado de construir: backends en Python y Java, interfaces en JavaScript, y proyectos que van desde un sistema hospitalario hasta una plataforma de votaciones distribuida en varios servicios.</p>
+      <p>Me interesa especialmente el diseño de arquitecturas backend claras: separar responsabilidades, pensar en roles y permisos desde el modelo de datos, y construir APIs que otros equipos puedan consumir sin fricción. Estoy llevando estos principios a mi proyecto de grado, una plataforma para la gestión de adopción animal en Bogotá.</p>
+      <p>Busco un espacio como practicante de desarrollo donde pueda seguir aprendiendo en equipo, recibir retroalimentación técnica real y aportar con responsabilidad desde el primer día.</p>
+    </div>
+    <div class="facts">
+      <div class="fact"><span class="label">FORMACIÓN</span><span class="val">Ingeniería de Sistemas (último semestre)</span></div>
+      <div class="fact"><span class="label">FORMACIÓN</span><span class="val">Técnico en Programación de Software — SENA</span></div>
+      <div class="fact"><span class="label">DIPLOMADO</span><span class="val">Misión TIC 2022 — Desarrollo Web</span></div>
+      <div class="fact"><span class="label">ENFOQUE</span><span class="val">Backend & desarrollo full stack</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="habilidades">
+  <div class="wrap">
+    <h2 class="section-heading">Habilidades</h2>
+    <div class="skillgrid">
+      <div class="skillcat">
+        <h3>lenguajes</h3>
+        <ul><li>Java</li><li>Python</li><li>JavaScript</li><li>TypeScript</li></ul>
+      </div>
+      <div class="skillcat">
+        <h3>backend</h3>
+        <ul><li>Django</li><li>Flask</li><li>Node.js / Express</li><li>.NET</li></ul>
+      </div>
+      <div class="skillcat">
+        <h3>frontend</h3>
+        <ul><li>React</li><li>Vue</li><li>Angular</li></ul>
+      </div>
+      <div class="skillcat">
+        <h3>datos & otros</h3>
+        <ul><li>PostgreSQL</li><li>MongoDB</li><li>JWT / autenticación</li><li>Git & GitHub</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyectos">
+  <div class="wrap">
+    <h2 class="section-heading">Proyectos</h2>
+
+    <div class="featured">
+      <div class="featured-visual">
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="100" cy="100" r="70" stroke="#7c6fff" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="100" cy="100" r="46" stroke="#4fd1e8" stroke-width="1.5" opacity="0.6"/>
+          <path d="M70 118c0-18 14-30 30-30s30 12 30 30" stroke="#edeef7" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="82" cy="80" r="9" fill="#7c6fff"/>
+          <circle cx="118" cy="80" r="9" fill="#4fd1e8"/>
+          <circle cx="70" cy="95" r="6" fill="#7c6fff" opacity="0.7"/>
+          <circle cx="130" cy="95" r="6" fill="#4fd1e8" opacity="0.7"/>
+        </svg>
+      </div>
+      <div class="featured-body">
+        <span class="tag">Proyecto de grado</span>
+        <h3>Plataforma de adopción animal — Bogotá</h3>
+        <p>Diseñé e implementé el MVP de una plataforma que centraliza la información de refugios, animales disponibles y solicitudes de adopción en Bogotá D.C. — hoy dispersa en hojas de cálculo, documentos físicos y redes sociales. El sistema maneja tres roles (administrador, refugio y adoptante), y permite registrar animales, dar seguimiento a solicitudes de adopción y gestionar oportunidades de voluntariado.</p>
+        <div class="stackline"><b>Stack:</b> React · Node.js + Express · API REST · PostgreSQL · JWT</div>
+      </div>
+    </div>
+
+    <div class="projectlist">
+      <div class="project-row">
+        <div class="stackline"><b>Python</b><br>JavaScript</div>
         <div>
-            <a download="HOJA-DE-VIDA.pdf" href="documentos\hgv.pdf" class="button" target="_blank">
-                Desacargar CV
-            </a>
+          <h3>Sistema hospitalario</h3>
+          <p>Aplicación web con inicio de sesión dinámico para empleados y pacientes según su cargo. Incluye operaciones CRUD sobre pacientes, familiares e historia clínica.</p>
         </div>
-
-    </header>
-
-    <div class="modal-container">
-        <div class="modal modal-close">
-            <p class="close"> X </p>
-            <h2 class="title-model" id="title-modal">titulo</h2>
-            <p id="texto-modal">lorem</p>
+        <div class="repo-links">
+          <a class="repo-link" href="https://github.com/GiovannyAche/hospital-fe" target="_blank" rel="noopener">Repositorio →</a>
         </div>
+      </div>
+
+      <div class="project-row">
+        <div class="stackline"><b>Django</b><br>Vue.js</div>
+        <div>
+          <h3>Plataforma bancaria</h3>
+          <p>Inicio de sesión seguro y gestión de funcionalidades para clientes de un banco, construida sobre el patrón Modelo-Vista-Controlador para mantener el sistema organizado y escalable.</p>
+        </div>
+        <div class="repo-links">
+          <a class="repo-link" href="https://github.com/GiovannyAche/Bank-be" target="_blank" rel="noopener">Repositorio →</a>
+        </div>
+      </div>
+
+      <div class="project-row">
+        <div class="stackline"><b>Flask</b><br>Java · Angular</div>
+        <div>
+          <h3>Sistema de votaciones — Registraduría</h3>
+          <p>Proyecto en equipo dividido en cuatro servicios: un backend en Flask con MongoDB para la gestión de usuarios, un backend en Java con Maven para permisos por rol, una API intermedia en Flask que confirma esos permisos, y un frontend en Angular conectado a toda la cadena.</p>
+        </div>
+        <div class="repo-links">
+          <a class="repo-link" href="https://github.com/GiovannyAche/registraduria-be1" target="_blank" rel="noopener">Backend usuarios →</a>
+          <a class="repo-link" href="https://github.com/GiovannyAche/registraduria-be2" target="_blank" rel="noopener">Backend permisos →</a>
+          <a class="repo-link" href="https://github.com/GiovannyAche/registraduria-API" target="_blank" rel="noopener">API →</a>
+          <a class="repo-link" href="https://github.com/GiovannyAche/registraduria-fe" target="_blank" rel="noopener">Frontend →</a>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
 
-    <section class="content sau">
-        <h2 class="title" id="yo">sobre mi </h2>
-        <p>✋🏻 ¡Hola! Soy Harol Giovanny, un apasionado desarrollador de software con formación en Ingeniería de Sistemas. Actualmente curso el último semestre de mi carrera y he complementado mi aprendizaje académico con una fuerte dedicación autodidacta, siempre en busca de nuevos retos y conocimientos.
-        </p>
-        <p>🚀 Mi trayectoria incluye el diplomado Misión TIC 2022, donde me especialicé en desarrollo web y llevé a cabo proyectos prácticos que me permitieron consolidar habilidades técnicas, trabajar en equipo y transformar ideas en soluciones reales.
-        </p>
-        <p>💡 Creo firmemente que la combinación de mi formación académica, mi aprendizaje continuo y mi experiencia práctica me han preparado para aportar valor a cualquier proyecto. Soy una persona proactiva, comprometida y con gran capacidad para adaptarme a los desafíos del mundo tecnológico.
-        </p>
-        <p>👉 Estoy listo para colaborar en proyectos innovadores, aportar soluciones creativas y seguir creciendo como profesional del desarrollo de software.
-        </p>
-        <div class="box-container">
-            <div class="box">
-                <i class="fa-brands fa-java"></i>
-                <h3>Java</h3>
-                <a href="#" class="mas">MAS INFORMACION</a>
-            </div>
-            <div class="box">
-                <i class="fa-brands fa-js"></i>
-                <h3>JavaScript</h3>
-                <a href="#" class="mas">MAS INFORMACION</a>
-            </div>
-            <div class="box">
-                <i class="fa-solid fa-c"></i>
-                <h3>.Net</h3>
-                <a href="#" class="mas">MAS INFORMACION</a>
-            </div>
-            <div class="box">
-                <i class="fa-brands fa-python"></i>
-                <h3>Python</h3>
-                <a href="#" class="mas">MAS INFORMACION</a>
-            </div>
-            <div class="box">
-                <i class="fa-brands fa-github"></i>
-                <h3>Github</h3>
-                <a href="https://github.com/GiovannyAche?tab=repositories" class="mas" target="_blank">REPOSITORIO</a>
-            </div>
-        </div>
-    </section>
+<section id="contacto">
+  <div class="wrap">
+    <div>
+      <h2>Hablemos</h2>
+      <p>Estoy buscando prácticas y proyectos de desarrollo de software. Si mi perfil encaja con lo que necesitas, escríbeme.</p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:giovannyache@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        giovannyache@gmail.com
+      </a>
+      <a href="https://wa.me/573222136644" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 11.5a8.5 8.5 0 1 1-4.14-7.3L21 3l-1.2 4.14A8.46 8.46 0 0 1 21 11.5z"/></svg>
+        +57 322 213 6644
+      </a>
+      <a href="https://www.linkedin.com/in/giovanny-lara" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="7" y1="10" x2="7" y2="16"/><circle cx="7" cy="7" r="0.5" fill="currentColor"/><path d="M11 16v-3.5a2 2 0 0 1 4 0V16"/><line x1="11" y1="10" x2="11" y2="16"/></svg>
+        linkedin.com/in/giovanny-lara
+      </a>
+      <a href="https://github.com/GiovannyAche?tab=repositories" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4 1.5-4-2-6-2m12 4v-3.5c0-1 .1-1.4-.5-2 2-.2 4-1 4-4.5a3.5 3.5 0 0 0-1-2.5 3.2 3.2 0 0 0-.1-2.5s-.9-.3-3 1a10.6 10.6 0 0 0-5.4 0c-2.1-1.3-3-1-3-1a3.2 3.2 0 0 0-.1 2.5A3.5 3.5 0 0 0 5 9.5c0 3.5 2 4.3 4 4.5-.4.4-.4.9-.5 1.5v3.5"/></svg>
+        github.com/GiovannyAche
+      </a>
+    </div>
+  </div>
+</section>
 
-    <section class="content about" id="proyectos">
-        <h2 class="title">proyectos</h2>
-        <div class="slider">
-            <div class="slide">
-                <img src="documentos/hospital.jpg" alt="Imagen 1">
-                <h2>Hospital</h2>
-                <p class="texto-carrusel">Se desarrollo una página web utilizando Python para el backend y
-                    JavaScript para el fronted de un hospital, con el objetivo de permitir un inicio de sesión
-                    dinámico tanto para empleados como para pacientes, teniendo en cuenta el cargo y las
-                    funcionalidades específicas de cada uno. Esta página web debe permitir realizar operaciones CRUD
-                    (Crear, Leer, Actualizar y Eliminar) en los datos de pacientes, familiares y la historia
-                    clínica.
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/hospital-fe" class="btn">REPOSITORIO</a>
-            </div>
-            <div class="slide">
-                <img src="documentos/banco2.jpg" alt="Imagen 2">
-                <h2>Banco</h2>
-                <p class="texto-carrusel">Esta plataforma permite a los clientes de un banco
-                    realizar un inicio de sesión seguro y acceder a diversas funcionalidades.
-                    Utilizando el patrón de diseño Modelo-Vista-Controlador (MVC), he logrado
-                    una estructura organizada y modular que facilita el mantenimiento y la
-                    escalabilidad del sistema. fue desarrollada en python con ayuda de el
-                    framework django y su fronted fue desarrollado en javscript con vue
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/Bank-be" class="btn">REPOSITORIO</a>
-            </div>
-            <div class="slide">
-                <img src="documentos/registraduria.jpg" alt="Imagen 3">
-                <h2>Registradurida backend</h2>
-                <p>En esta etapa del proyecto, nos enfocamos en el desarrollo del
-                    backend utilizando Python y el framework Flask. Nuestro objetivo
-                    principal fue establecer conexiones con una base de datos MongoDB
-                    para crear usuarios en un sistema de votaciones, pero con un enfoque
-                    específico en los administradores
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-be1" class="btn">REPOSITORIO</a>
-            </div>
-            <div class="slide">
-                <img src="documentos/permisos.jpg" alt="Imagen 4">
-                <h2>Registradurida backend</h2>
-                <p>esta es otra parte del backend del proyecto anterior fue desarrollado
-                    con java y el framework maven en este se realizaban cada uno de los
-                    permisos que tenian los usuarios dependiendo de su rol estos permisos
-                    son un CRUD de diferentes modelos que se tenian en el anterior back end
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-be2" class="btn">REPOSITORIO</a>
+<footer>© 2026 Harol Giovanny Lara Suárez</footer>
 
-            </div>
-            <div class="slide">
-                <img src="documentos/permisos.jpg" alt="Imagen 5">
-                <h2>Registradurida API</h2>
-                <p>Este proyecto es la tercera parte de la Registraduría en este se realizo
-                    una api en donde recibía las peticiones de uno de los backend y se realizaba
-                    la consulta del permiso al otro backend y de esta manera se confirmaba si
-                    un usuario tenia permiso a la acción que se iba a desarrollar, esto fue realizado
-                    con Python y flask
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-API" class="btn">REPOSITORIO</a>
+<script src="script.js"></script>
 
-            </div>
-            <div class="slide">
-                <img src="documentos/registraduria-fe.jpg" alt="Imagen 6">
-                <h2>Registradurida frontend</h2>
-                <p >Este proyecto es la ultima parte de la Registraduría en donde se
-                    enfoca en el frontend, el cual esta hecho con una plantilla de angular
-                    y en lenguaje typescript, también está conectada directamente al api
-                    ya que desde hay se despliega al lugar correspondiente para permitir
-                    toda la funcionalidad 
-                </p>
-                <a target="_blank" href="https://github.com/GiovannyAche/registraduria-fe" class="btn">REPOSITORIO</a>
-            </div>
-        </div>
-        <div class="prev">
-            <i class="fa-solid fa-arrow-left fa-beat fa-2xl"></i>
-        </div>
-        <div class="next">
-            <i class="fa-solid fa-arrow-right fa-beat fa-2xl"></i>
-        </div>
-    </section>
-
-    <section class="content contac" id="contac">
-        <h2 class="title">contacto</h2>
-        <div id="icon">
-            <a id="icons" target="_blank"
-                href="www.linkedin.com/in/giovanny-lara"
-                class="fa-brands fa-linkedin fa-2xl"></a>
-            <a id="icons" target="_blank" href="https://wa.me/573222136644" class="fa-brands fa-whatsapp fa-2xl"></a>
-            <a id="icons" target="_blank" href="giovannyache@gmail.com"
-                class="fa-solid fa-envelope fa-2xl"></a>
-        </div>
-        <p>Giovannyache@gmail.com </br>
-            3222136644
-        </p>
-
-    </section>
-
-    <script src="codigo.js"></script>
 </body>
-
 </html>
